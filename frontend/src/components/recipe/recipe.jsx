@@ -2,7 +2,7 @@ import React from "react";
 
 const Recipe = ({ recipe }) => {
   return (
-    <div className="p-4 md:w-1/3">
+    <div className="p-4 ">
       <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
         <img
           className="lg:h-48 md:h-36 w-full object-cover object-center"
