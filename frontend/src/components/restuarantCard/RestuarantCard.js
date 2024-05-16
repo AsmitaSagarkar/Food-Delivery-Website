@@ -13,14 +13,14 @@ const RestuarantCard = (props) => {
         />
       </div>
       <div className="overflow-x-auto sm:ml-3 sm:overflow-y-auto">
-        <h1 className=" text-lg font-bold text-gray-900 overflow-hidden w-full text-ellipsis whitespace-nowrap  break-words">
+        <h1 className=" text-lg font-bold text-white overflow-hidden w-full text-ellipsis whitespace-nowrap  break-words">
           {name}
         </h1>
         <h2 className="grid grid-flow-col items-center mt-[2px] gap-[2px] justify-start">
           <p className="text-green-600">
             <FaStar />
           </p>
-          <p className="text-lg font-bold text-gray-900 overflow-hidden w-full break-words">
+          <p className="text-lg font-bold text-white overflow-hidden w-full break-words">
             <span>{avgRating} •</span> {sla?.slaString}
           </p>
         </h2>
